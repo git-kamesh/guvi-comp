@@ -10,7 +10,7 @@ def run_command(command,ip=''):
     return grep_stdout.decode()
 
 def compile():
-    return run_command("gcc test.c -o guvic")
+    return run_command("gcc cprog.c -o guvic")
 
 def test(case_):
     try:
